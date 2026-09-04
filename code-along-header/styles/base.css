@@ -1,0 +1,49 @@
+header {
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  align-items: end;
+  border-bottom: solid black 1px;
+  padding: 10px;
+}
+.hamburger{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.hamburger::before {
+  content: "\2630";
+  font-size: 44px;
+}
+.hamburger.show::before {
+  content: "\00D7";
+  font-size: 44px;
+}
+header img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.navigation {
+  display: block;
+  display: none;
+}
+.navigation ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation a{
+  padding: 10px;
+  display: block;
+  margin: 0;
+}
+.navigation a:hover{
+  background-color: lightblue;
+}
+.navigation.show {
+  display: block;
+  background-color: aquamarine;
+}
+.navigation.show li{
+  border-bottom: 1px solid black;
+}
