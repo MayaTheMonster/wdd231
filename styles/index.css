@@ -1,6 +1,6 @@
 :root{
     --primary-color: rgb(122, 157, 238);
-    --secondary-color: rgb(89, 131, 229);
+    --secondary-color: #6298e5;
     background-color: aliceblue;
     --tertiary-color: rgb(215, 234, 251);
     font-family: "Inter", sans-serif;
@@ -177,7 +177,7 @@ section h2{
     background-color: silver;
 }
 .bronze{
-    background-color: rgb(187, 93, 5);
+    background-color: #ca8a32
 }
 .card3{
     display: grid;
