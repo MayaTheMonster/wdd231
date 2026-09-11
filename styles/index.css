@@ -133,6 +133,9 @@ section h2{
 .card{
     text-align: center; 
 }
+.card2{
+    text-align: center; 
+}
 .card p{
     padding: 10px;
     border-radius: 10px;
@@ -148,6 +151,55 @@ section h2{
 }
 .unfinished::before{
     content: "❌";
+}
+.directories{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+}
+.directories a{
+    padding: 10px 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    border: 1px solid black;
+    color: black;
+}
+.directories a:hover{
+    background-color: var(--secondary-color);
+}
+.gold{
+    background-color: rgb(238, 203, 2);
+}
+.silver{
+    background-color: silver;
+}
+.bronze{
+    background-color: rgb(187, 93, 5);
+}
+.card3{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    border-top: 1px black solid;
+}
+.card3 h2{
+    background: none;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.card3 p{
+    margin: 0;
+    text-align: center;
+}
+.card3 a{
+    text-align: end;
+    padding: 5px 10px;
 }
 footer{
     padding: 10px;

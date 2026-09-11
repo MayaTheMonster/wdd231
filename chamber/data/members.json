@@ -1,0 +1,132 @@
+{
+    "company1": {
+        "companyName": "John.Inc",
+        "companyAddress": "Taylor Speedy Street 94th",
+        "phoneNumber": "341274624198",
+        "url": "www.jonnyincorporatedpolaroids.com",
+        "membership": 2,
+        "joinDate": "01/02/1997",
+        "owner": "Johnna Tan",
+        "image": "jonh"
+    },
+    "company2": {
+        "companyName": "Tronpettes.LTDA",
+        "companyAddress": "Chico boate Avenue 96th",
+        "phoneNumber": "4172561308165",
+        "url": "www.trompetesforlife.com",
+        "membership": 1,
+        "joinDate": "01/02/2016",
+        "owner": "Tromp Donny",
+        "image": "trompete"
+    },
+    "company3": {
+        "companyName": "Cats Are Pawsome.Inc",
+        "companyAddress": "Clinton Volkswagen Corner 98th",
+        "phoneNumber": "1235657328907",
+        "url": "www.pawsomecatstheyare.com",
+        "membership": 2,
+        "joinDate": "01/02/1998",
+        "owner": "Milo Catsperson",
+        "image": "cat"
+    },
+    "company4": {
+        "companyName": "bird watching company.corp",
+        "companyAddress": "Bruno Venus Premise 92th",
+        "phoneNumber": "12213216",
+        "url": "www.governmentdronesarcool.com",
+        "membership": 2,
+        "joinDate": "01/02/2026",
+        "owner": "Ping When",
+        "image": "peng"
+    },
+    "company5": {
+        "companyName": "Digital Arts.Inc",
+        "companyAddress": "Johnny Money Road 12th",
+        "phoneNumber": "123456789",
+        "url": "https://www.da.com/",
+        "membership": 3,
+        "joinDate": "27/03/1982",
+        "owner": "Andrew Willows",
+        "image": "digital-games"
+    },
+    "company6": {
+        "companyName": "Legendary Games.Inc",
+        "companyAddress": "Emma Rock Seafront 88th",
+        "phoneNumber": "9899999997",
+        "url": "https://store.legendarygames.com/",
+        "membership": 3,
+        "joinDate": "01/02/1991",
+        "owner": "Tim Sweetey",
+        "image": "legendary-games"
+    },
+    "company7": {
+        "companyName": "commyunityst.LTDA",
+        "companyAddress": "Justin Babier Mast 102th",
+        "phoneNumber": "122333444455555",
+        "url": "www.equalityforeveryones.com",
+        "membership": 2,
+        "joinDate": "01/02/2000",
+        "owner": "Komps Racii",
+        "image": "comm-unixt"
+    },
+    "company8": {
+        "companyName": "TreeDweller.LTDA",
+        "companyAddress": "Michael Dadjack Semaphore 64th",
+        "phoneNumber": "1212123333222",
+        "url": "www.naturedecorationsforcheap.com",
+        "membership": 1,
+        "joinDate": "01/02/1999",
+        "owner": "Prent Clerk",
+        "image": "tree"
+    },
+    "company9": {
+        "companyName": "begg.Inc",
+        "companyAddress": "David Shildie Way 36th",
+        "phoneNumber": "3467489674632",
+        "url": "www.bargainingformoney.com",
+        "membership": 1,
+        "joinDate": "01/02/1980",
+        "owner": "Homm Lest",
+        "image": "begg"
+    },
+    "company10": {
+        "companyName": "lemonado.LTDA",
+        "companyAddress": "John Lemon Route 104th",
+        "phoneNumber": "888766665442",
+        "url": "www.lemonweekedforevar.com",
+        "membership": 2,
+        "joinDate": "01/02/2025",
+        "owner": "Johnna Tan",
+        "image": "lemon"
+    },
+    "company11": {
+        "companyName": "Ubiharsh.Inc",
+        "companyAddress": "Ariana Menor Track 128th",
+        "phoneNumber": "7985656794",
+        "url": "https://www.ubiharsh.com/en-us",
+        "membership": 3,
+        "joinDate": "28/03/1986",
+        "owner": "Johnna Tan",
+        "image": "ubyharsh"
+    },
+    "company12": {
+        "companyName": "Moisture.Inc",
+        "companyAddress": "Ludwig van Beatoven Passage 13th",
+        "phoneNumber": "9253407865",
+        "url": "https://store.moisture.com/",
+        "membership": 3,
+        "joinDate": "12/09/2003",
+        "owner": "Faucet",
+        "image": "moist"
+    },
+    "company13": {
+        "companyName": "Polarisisisobilateral",
+        "companyAddress": "Marvin Streit Highway 94th",
+        "phoneNumber": "2351111115",
+        "url": "www.watchingpolaristogether.com",
+        "membership": 1,
+        "joinDate": "01/02/2002",
+        "owner": "Sirius Paerson",
+        "image": "polaris"
+    }
+}
