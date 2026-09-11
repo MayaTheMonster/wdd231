@@ -58,6 +58,7 @@ function showGrid(data, grid){
 
             image.setAttribute("src", fulltext);
             image.setAttribute("alt", member.image);
+            image.setAttribute("loading", "lazy");
 
             membership.appendChild(company)
             membership.appendChild(owner)
