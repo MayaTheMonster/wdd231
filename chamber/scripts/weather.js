@@ -60,6 +60,7 @@ function displayForecast(data) {
     let desc = data.list[day].weather[0].description;
     selectors[index+1].setAttribute('src', iconsrc);
     selectors[index+1].setAttribute('alt', data.list[day].weather.main);
+    selectors[index+1].setAttribute('loading', 'lazy');
     selectors[index+2].textContent = `${desc}`;
     day += 8;
     index += 3;
