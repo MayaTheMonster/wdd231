@@ -86,9 +86,8 @@ h1{
     height: 300px;
     margin: 0 auto;
     justify-content: center;
-    margin-bottom: 15px;
+    margin: 0 auto 15px auto;
     max-width: 1500px;
-    margin: 0 auto;
     background-color: #3578b8;
 }
 .hero img{
