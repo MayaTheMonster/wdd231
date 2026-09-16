@@ -10,7 +10,8 @@
     <link rel="stylesheet" href=" ../styles/index_large.css">
     <script src="../scripts/date.js" defer></script>
     <script src="../scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/sponsored.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -31,18 +32,33 @@
         <button id="nav-button" class="navButton" aria-label="navigation"></button>
     </header>
     <nav class="navygate"><ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#" class="current">Chamber Project</a></li>
+        <li><a href="#" class="current">Home</a></li>
+        <li><a href="directory.html">Chamber Project</a></li>
         <li><a href="#">Final Project</a></li>
     </ul></nav>
     <main>
-        <h1>Directory</h1>
-        <div class="directories">
-            <a href="#" id="gridDisplay">Grid</a>
-            <a href="#" id="listDisplay">List</a>
+        <h1>Home</h1>
+        <div class="hero">
+            <img src="images/chamber-of-commerce.webp" alt="voting chamber of comerce">
+            <div class="heroText">
+                <h2>Join our <a href="#" class="whiteText">Chamber of Comerce</a> today!</h2>
+            </div>
+        </div>
+        <div class="currentEvents block">
+            <h3>Upcoming Events:</h3>
+            <p>Inauguration month of the Chamber!!!</p>
+            <p>Milo's cat's birthday</p>
+            <p>First Conference of Comerce</p>
+            <p class="last">Moisture Inc foundation anniversary</p>
+        </div>
+        <div class="block">
+            <p class="weatherTitle">The current temperature in Foz do Iguaçu, Brasil is <span id="current-temp"></span></p>
+            <figure>
+              <img id="weather-icon" src="" alt="">
+              <figcaption class="weather"></figcaption>
+            </figure>
         </div>
         <div id="filterBusiness"></div>
-        <div id="filterBusinessList"></div>
     </main>
     <footer>
         <a href="https://www.linkedin.com/"><img src="../images/linkedin.svg" alt="LinkedIn" width="50" height="50"></a>

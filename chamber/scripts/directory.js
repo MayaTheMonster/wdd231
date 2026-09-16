@@ -2,9 +2,6 @@ const listSetting = document.querySelector("#listDisplay")
 const gridSetting = document.querySelector("#gridDisplay")
 
 async function getData(path, grid){
-    if (grid == true){
-        //add stuff here
-    }
     const response = await fetch(path);
     const data = await response.json();
     showGrid(data, grid);
