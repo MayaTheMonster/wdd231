@@ -4,6 +4,7 @@ const url2 = 'https://api.openweathermap.org/data/2.5/forecast?units=metric&lat=
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('.weather');
+
 const selectors = [
 document.querySelector('#current-temp2'),
 document.querySelector('#weather-icon2'),
