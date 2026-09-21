@@ -1,0 +1,149 @@
+[
+  {
+    "city": "Paris",
+    "country": "France",
+    "continent": "Europe",
+    "latitude": "48.85",
+    "longitude": "2.35"
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "latitude": "35.72",
+    "longitude": "139.73"
+  },
+  {
+    "city": "New York City",
+    "country": "United States",
+    "continent": "North America",
+    "latitude": "40.71",
+    "longitude": "-74.00"
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "continent": "Europe",
+    "latitude": "41.89",
+    "longitude": "12.49"
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "latitude": "51.52",
+    "longitude": "-0.08"
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "continent": "Asia",
+    "latitude": "13.78",
+    "longitude": "100.40"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "continent": "South America",
+    "latitude": "-22.91",
+    "longitude": "-43.25"
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "latitude": "-33.92",
+    "longitude": "18.42"
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "continent": "Oceania",
+    "latitude": "-33.87",
+    "longitude": "151.27"
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "continent": "Europe/Asia",
+    "latitude": "41.00",
+    "longitude": "28.96"
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "continent": "Europe",
+    "latitude": "41.38",
+    "longitude": "2.16"
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "latitude": "25.25",
+    "longitude": "55.35"
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "continent": "Africa",
+    "latitude": "30.05",
+    "longitude": "31.23"
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "latitude": "52.36",
+    "longitude": "4.90"
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "continent": "Asia",
+    "latitude": "37.56",
+    "longitude": "126.97"
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "continent": "North America",
+    "latitude": "19.42",
+    "longitude": "-99.07"
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "continent": "Asia",
+    "latitude": "1.28",
+    "longitude": "103.84"
+  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "latitude": "50.07",
+    "longitude": "14.43"
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "continent": "South America",
+    "latitude": "-34.60",
+    "longitude": "-58.39"
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "continent": "North America",
+    "latitude": "43.65",
+    "longitude": "-79.41"
+  },
+  {
+    "city": "Marrakesh",
+    "country": "Morocco",
+    "continent": "Africa",
+    "latitude": "31.63",
+    "longitude": "-7.90"
+  }
+]
