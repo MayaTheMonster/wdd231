@@ -200,6 +200,7 @@
     }
     .radio{
         margin: 0;
+        gap: 15px;
     }
     form input[type="submit"]{
        padding: 0; 
