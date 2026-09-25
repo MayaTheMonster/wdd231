@@ -29,7 +29,7 @@ function showGrid(data, grid){
         if(member.membership == 3){
             membership.classList.add("gold")
         }
-        else if(member.membership == 2){
+        else if(member.membership == 2 || member.membership == 4){
             membership.classList.add("silver")
         }
         else{
@@ -62,7 +62,6 @@ function showGrid(data, grid){
             membership.appendChild(address)
             membership.appendChild(phone)
             membership.appendChild(image)
-            membership.appendChild(domain)
             membership.appendChild(joinDate)
             membership.appendChild(domain)
 
