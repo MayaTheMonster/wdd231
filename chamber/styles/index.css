@@ -249,6 +249,9 @@ section h2{
 .bronze{
     background-color: #ca8a32
 }
+.underline{
+    text-decoration: underline;
+}
 .card3{
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -290,6 +293,7 @@ footer .block p{
     justify-self: center;
 }
 .card4 p {
+    padding: 5px 5px 7px 5px;
     margin: 0;
     text-align: center;
 }
@@ -301,12 +305,10 @@ footer .block p{
     align-self: center;
     padding: 0;
 }
-.card4 a{
-    color: black;
-}
 .card4 button{
     display: block;
     justify-self: center;
+    padding: 13px 20px;
 }
 .organizationalForm form{
     display: grid;

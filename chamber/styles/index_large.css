@@ -188,6 +188,9 @@
     .card4 a{
         padding: 10px;
     }
+    .card4 button{
+        padding: 1px 6px;
+    }
     .organizationalForm{
         display: grid;
         grid-template-columns: 2fr 1fr;
