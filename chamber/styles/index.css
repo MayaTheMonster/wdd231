@@ -301,6 +301,9 @@ footer .block p{
     align-self: center;
     padding: 0;
 }
+.card4 a{
+    color: black;
+}
 .card4 button{
     display: block;
     justify-self: center;
