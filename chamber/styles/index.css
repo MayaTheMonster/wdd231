@@ -316,12 +316,13 @@ footer .block p{
 form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="submit"]{
     padding: 9px;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
     display: grid;
 }
 .radio{
     display: grid;
     margin: 10px;
+    gap: 20px;
 }
 form input:required{
     border-left: solid red 8px;
