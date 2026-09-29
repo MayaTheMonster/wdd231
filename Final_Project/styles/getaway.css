@@ -1,0 +1,22 @@
+:root{
+    --primary-color: rgb(200, 207, 224);
+    --secondary-color: rgb(185, 190, 213);
+    background-color: aliceblue;
+    --tertiary-color: rgb(215, 234, 251);
+    font-family: "Inter", sans-serif;
+}
+.block{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+header{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin: 10px;
+    display: grid;
+}
+nav{
+    background-color: var(--secondary-color);
+}

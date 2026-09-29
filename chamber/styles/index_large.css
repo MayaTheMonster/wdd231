@@ -204,9 +204,17 @@
     .radio{
         margin: 0;
         gap: 15px;
+        justify-content: center;
+        margin-right: 60px;
     }
     form input[type="submit"]{
        padding: 0; 
+    }
+    .labelGrid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        padding-left: 40px;
     }
     .FixMyCards{
         grid-column: 2/3;
