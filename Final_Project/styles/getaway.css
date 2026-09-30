@@ -36,7 +36,9 @@ header div{
     text-align: center;
 }
 header img{
-    width: 100px;
+    width: 60%;
+    min-width: 60px;
+    max-width: 100px;
     height: auto;
 }
 .titleCenter{
