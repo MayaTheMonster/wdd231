@@ -11,6 +11,20 @@
     margin: 10px;
     padding: 10px;
 }
+.rightSide{
+    justify-self: right;
+}
+.smallify{
+    display: block;
+    justify-self: center;
+    width: 50%;
+    height: auto;
+    margin: 10px;
+}
+.center{
+    justify-self: center;
+    text-align: center;
+}
 header{
     border-radius: 10px;
     margin: 10px;
@@ -62,7 +76,4 @@ nav ul li a{
 #nav-button.show::before {
   content: "\00D7";
   font-size: 44px;
-}
-.rightSide{
-    justify-self: right;
 }
