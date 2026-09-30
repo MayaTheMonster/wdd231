@@ -15,8 +15,8 @@
     header div{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
         background-color: var(--primary-color);
     }
     #nav-button{
@@ -27,10 +27,6 @@
     }
     .titleCenter{
         grid-column: 1/4;
-    }
-    header img{
-        width: 100px;
-        height: auto;
     }
     nav ul{
         padding: 0;
@@ -52,5 +48,8 @@
     }
     .radial2{
         border-bottom-right-radius: 10px;
+    }
+    .navygate{
+        display: block;
     }
 }

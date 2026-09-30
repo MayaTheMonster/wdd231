@@ -26,12 +26,21 @@
     text-align: center;
 }
 header{
-    border-radius: 10px;
     margin: 10px;
 }
 header div{
+    border-radius: 10px;
     background-color: var(--primary-color);
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    text-align: center;
+}
+header img{
+    width: 100px;
+    height: auto;
+}
+.titleCenter{
+    grid-column: 1/5;
 }
 nav ul{
     padding: 0;
@@ -44,7 +53,7 @@ nav ul li{
     padding: 10px 0;
     width: 100%;
     background-color: var(--secondary-color);
-    margin: 0 auto;
+    margin: 5px auto 0 auto;
     border: 1px solid black;
     list-style: none;
     border-radius: 10px;
@@ -58,11 +67,13 @@ nav ul li a{
     content: "⭐";
 }
 #nav-button{
-    width: 44px;
-    height: 44px;
+    width: 50px;
+    height: 50px;
     grid-column: 4/5;
     border: none;
     background: none;
+    justify-self: center;
+    align-self: center;
 }
 #nav-button::before{
     content: "\2630";
@@ -76,4 +87,10 @@ nav ul li a{
 #nav-button.show::before {
   content: "\00D7";
   font-size: 44px;
+}
+.navygate{
+    display: none;
+}
+.navygate.show{
+    display: block;
 }
