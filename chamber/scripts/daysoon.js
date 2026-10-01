@@ -11,7 +11,10 @@ function getLastTime(){
     return (JSON.parse(localStorage.getItem("dateLastTime")));
 }
 let text = "something went wrong!"
-if(theDateToday/msToDays - theDateLastTime/msToDays < 1){
+if(theDateToday == theDateLastTime){
+    text = "Welcome! Let us know if you have any questions."
+}
+else if(theDateToday/msToDays - theDateLastTime/msToDays < 1){
     text = "Back so soon! Awesome!"
 }
 else if(Math.floor(theDateToday/msToDays - theDateLastTime/msToDays) == 1){
