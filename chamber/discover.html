@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/index_large.css">
     <script src="../scripts/date.js" defer></script>
     <script src="../scripts/navigation.js" defer></script>
+    <script src="scripts/discover.js" type="module"></script>
+    <script src="scripts/daysoon.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -36,13 +38,8 @@
         <li><a href="#" class="current">Discover</a></li>
     </ul></nav>
     <main>
-        <h1>Directory</h1>
-        <div class="directories">
-            <a href="#" id="gridDisplay">Grid</a>
-            <a href="#" id="listDisplay">List</a>
-        </div>
-        <div id="filterBusiness"></div>
-        <div id="filterBusinessList"></div>
+        <h1>Discovery</h1>
+        <div id="filterPoints"></div>
     </main>
     <footer>
         <a href="https://www.linkedin.com/"><img src="../images/linkedin.svg" alt="LinkedIn" width="50" height="50"></a>
@@ -52,6 +49,7 @@
         <div class="block">
             <p><span id="currentyear"></span> - Igor Duarte Barros - Brazil</p>
             <p id="lastModified"></p>
+            <p id="lastVisit"></p>
         </div>
     </footer>
 </body>

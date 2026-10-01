@@ -360,3 +360,35 @@ dialog p{
     justify-self: center;
     margin: 0 40%;
 }
+.namedGrid{
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "image"
+    "description"
+    "cost"
+    "address";
+}
+.namedGrid p{
+    margin: 0;
+}
+.namedGrid h2{
+    grid-area: name;
+}
+.namedGrid img{
+    grid-area: image;
+    width: 300px;
+    height: auto;
+    padding: 0;
+}
+.namedGrid .address{
+    grid-area: address;
+}
+.namedGrid .cost{
+    grid-area: cost;
+}
+.namedGrid .description{
+    grid-area: description;
+}

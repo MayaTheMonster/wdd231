@@ -230,6 +230,14 @@
         border-radius: 3px;
         margin: 0;
     }
+    .namedGrid img:hover{
+        animation: shiny 2s infinite ease-in-out;
+    }
+    @keyframes shiny {
+        0%{opacity: 100%;}
+        50%{opacity: 80%;}
+        100%{opacity: 100%;}
+    }
 }
 @media only screen and (min-width: 655px) and (max-width: 1000px){
     #filterBusiness{
@@ -237,6 +245,16 @@
         grid-template-columns: 1fr 1fr;
         margin: 12px auto 0 auto;
         gap: 25px;
+    }
+    .namedGrid{
+        overflow: hidden;
+        display: grid;
+        grid-template-areas: 
+        "image name"
+        "image description"
+        "image cost"
+        "image address";
+        margin: 10px;
     }
     input[type="submit"]{
         width: 60%;
@@ -252,6 +270,16 @@
         grid-template-columns: 1fr 1fr 1fr;
         margin: 12px auto 0 auto;
         gap: 25px;
+    }
+    .namedGrid{
+        overflow: hidden;
+        display: grid;
+        grid-template-areas: 
+        "name"
+        "image description"
+        "image cost"
+        "image address";
+        margin: 10px;
     }
     input[type="submit"]{
         width: 60%;
