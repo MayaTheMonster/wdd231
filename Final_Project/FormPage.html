@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Igor Duarte Barros">
+    <meta name="description" content="An extention of the Rainy Getaway program that allows you to add any city in the world and get accurate weather information">
+    <link rel="stylesheet" href="styles/getaway.css">
+    <link rel="stylesheet" href="styles/getaway_large.css">
+    <script src="../scripts/date.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta property="og:description" content="Weather checker for famous cities!">
+    <meta property="og:image" content="images/favicon.ico">
+    <meta property="og:title" content="Homepage - Chamber of Comerce Foz do Iguaçu">
+    <meta property="og:url" content="https://mayathemonster.github.io/wdd231/Final_Project/RainyGetaway.html">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Find your weather</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/cloud-drizzle.svg" alt="🌧" class="title rightSide">
+            <h1 class="title">Rainy Getaway</h1>
+            <img src="images/cloud-sun.svg" alt="🌥" class="title">
+            <button id="nav-button" class="navButton" aria-label="navigation"></button>
+            <p class="titleCenter">A place to help you Get-Away from bad weather!</p>
+        </div>
+        <nav class="navygate titleCenter"><ul>
+            <li class="radial"><a href="index.html">Welcome Page</a></li>
+            <li><a href="GetawayPage.html">Rainy Getaway</a></li>
+            <li class="radial2"><a href="#" class="current">Add your own city</a></li>
+        </ul></nav>
+    </header>
+    <main>
+        <h2>Discover your own weather!</h2>
+        <div class="formGrid">
+            <form method="get" action="FormResponse.html" class="block">
+                <label class="label">City <input type="text" name="name" title="Your city's name" placeholder="Perth"></label>
+                <label class="label">Latitude <input type="text" name="lat" required title="Your city's latitude" placeholder="-32.22" pattern="[0-9\.\-]{5,7}"></label>
+                <label class="label">Longitude <input type="text" name="long" required title="Your city's longitude" placeholder="116.28" pattern="[0-9\.\-]{5,7}"></label>
+                <input type="submit" value="Check your weather!">
+            </form>
+            <figure class="block">
+                <img src="images/map.webp" alt="google maps">
+                <figcaption>To get your coordinates, you can right click the name of your city on google maps</figcaption>
+            </figure>
+        </div>
+        <p id="timesWeathered" class="block"></p>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/"><img src="../images/linkedin.svg" alt="LinkedIn" width="50" height="50"></a>
+        <a href="https://github.com/"><img src="../images/github.svg" alt="Github" width="50" height="50"></a>
+        <a href="https://www.facebook.com/"><img src="../images/facebook.svg" alt="Facebook" width="50" height="50"></a>
+        <a href="https://discord.com/"><img src="../images/discord.svg" alt="Discord" width="50" height="50"></a>
+        <div class="block">
+            <p><span id="currentyear"></span> - Maya - Brazil</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

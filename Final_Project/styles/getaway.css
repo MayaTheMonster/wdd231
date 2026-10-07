@@ -1,6 +1,7 @@
 :root{
     --primary-color: rgb(200, 207, 224);
     --secondary-color: rgb(185, 190, 213);
+    --primary-low-opacity: rgba(200, 207, 224, 0.71);
     background-color: aliceblue;
     --tertiary-color: rgb(215, 234, 251);
     font-family: "Inter", sans-serif;
@@ -25,6 +26,14 @@
     justify-self: center;
     text-align: center;
 }
+.hide{
+    display: none;
+    background-color: none;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+}
 header{
     margin: 10px;
 }
@@ -37,9 +46,10 @@ header div{
 }
 header img{
     width: 60%;
-    min-width: 60px;
+    min-width: 52px;
     max-width: 100px;
     height: auto;
+    font-size: 60px;
 }
 .titleCenter{
     grid-column: 1/5;
@@ -95,4 +105,120 @@ nav ul li a{
 }
 .navygate.show{
     display: block;
+    animation: scrollDown 0.9s ease-out;
+}
+@keyframes scrollDown {
+    0%{transform: translateY(-30px); opacity: 0%;}
+    50%{opacity: 30%;}
+    100%{opacity: 100%;}
+}
+.hero{
+    position: relative;
+    height: 30rem;
+    margin-bottom: 10px;
+}
+.hero h2{
+    position: absolute;
+    top: 10px;
+    justify-self: center;
+    background-color: var(--primary-low-opacity);
+}
+.hero .banner{
+    position: absolute;
+    bottom: 10px;
+    font-size: 17px;
+    justify-self: center;
+    background-color: var(--primary-low-opacity);
+}
+.hero img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    justify-self: center;
+    height: 100%;
+    border-radius: 15px;
+}
+h1, h2{
+    text-align: center;
+}
+#tutorial{
+    display: none;
+}
+.weathers{
+    display: grid;
+    gap: 10px;
+    margin: 0 10px 10px 10px;
+}
+.weathers a{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+}
+section .iconTemps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#filterWeather section .weatherReport{
+    border-bottom: 1px black solid;
+}
+#filterWeather section .weatherReport:last-child{
+    border: none;
+}
+#filterWeather img{
+    display: block;
+    justify-self: right;
+    width: 80px;
+}
+#filterWeather button{
+    padding: 10px;
+}
+.popup{
+    width: 70%;
+    height: 90%;
+    max-width: 600px;
+    max-height: 560px;
+    justify-self: center;
+    align-self: center;
+}
+.popup img{
+    width: 30px;
+}
+.weatherReport p{
+    margin: 6px 0;
+}
+.popup button{
+    padding: 10px;
+}
+.popup .frame{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.formGrid form, .formGrid div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    padding: 12px 0px;
+    border: 2px rgb(79, 79, 79) solid;
+    border-radius: 10px;
+    margin:4px 0;
+}
+#lastCity{
+    padding: 10px;
+    margin: 8px;
+    background-color: var(--secondary-color);
+    border: rgb(47, 61, 79) solid 2px;
+    border-radius: 4px;
+}
+form input:required{
+    border-left: solid red 8px;
+}
+form input:required:valid{
+    border-left: solid green 8px;
+}
+figure img{
+    width: 100%;;
 }
