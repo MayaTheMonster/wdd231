@@ -58,7 +58,6 @@ function displayWeathers(filter){
     document.querySelector("#filterWeather").innerHTML = "";
     let integer = Object.values(filter);
     integer.forEach(place => {    
-        console.log(place);
         let card = document.createElement("section")
         let city = document.createElement("h3")
 
