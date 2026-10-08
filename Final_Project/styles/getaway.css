@@ -30,12 +30,19 @@
     display: none;
     background-color: none;
 }
+.smallifyTitle{
+    font-size: 24px;
+}
 footer{
     text-align: center;
     justify-content: center;
 }
 header{
     margin: 10px;
+}
+header .title{
+    font-size: 32px;
+    font-weight: bold;
 }
 header div{
     border-radius: 10px;
@@ -117,7 +124,7 @@ nav ul li a{
     height: 30rem;
     margin-bottom: 10px;
 }
-.hero h2{
+.hero h1{
     position: absolute;
     top: 10px;
     justify-self: center;
@@ -159,6 +166,11 @@ h1, h2{
 section .iconTemps{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.filter{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
 #filterWeather section .weatherReport{
     border-bottom: 1px black solid;
