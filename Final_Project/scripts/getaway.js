@@ -10,20 +10,6 @@ const displayPop = document.querySelector("#displayFull")
 const closeMod = document.querySelector("#closeMod")
 const modal = document.querySelector("#modal")
 
-try {
-    const response = await fetch(url);
-    if (response.ok) {
-      const data = await response.json();
-      console.log(data); // testing only
-      displayResults(data);
-    } else {
-        throw Error(await response.text());
-    }
-} catch (error) {
-    console.log(error);
-}
-
-
 const weatherData = await Promise.all(
     cities.map(async (city) => {
         try {
