@@ -176,13 +176,9 @@
         width: 100%;
     }
     .card4 img{
-        display: block;
-        width: 100%;
         min-width: 100px;
         height: auto;
         grid-row: 3/7;
-        justify-self: center;
-        align-self: center;
         padding: 7px 7px 24px 7px;
     }
     .card4 a{
