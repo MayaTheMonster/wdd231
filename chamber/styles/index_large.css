@@ -250,10 +250,11 @@
         overflow: hidden;
         display: grid;
         grid-template-areas: 
-        "image name"
+        "name"
         "image description"
         "image cost"
-        "image address";
+        "image address"
+        "image button";
         margin: 10px;
     }
     input[type="submit"]{
@@ -278,7 +279,8 @@
         "name"
         "image description"
         "image cost"
-        "image address";
+        "image address"
+        "image button";
         margin: 10px;
     }
     input[type="submit"]{

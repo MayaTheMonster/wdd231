@@ -369,7 +369,8 @@ dialog p{
     "image"
     "description"
     "cost"
-    "address";
+    "address"
+    "button";
 }
 .namedGrid p{
     margin: 0;
@@ -391,4 +392,9 @@ dialog p{
 }
 .namedGrid .description{
     grid-area: description;
+}
+.namedGrid button{
+    grid-area: button;
+    width: 120px;
+    justify-self: center;
 }
