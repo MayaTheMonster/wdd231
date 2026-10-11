@@ -248,7 +248,6 @@
         grid-template-areas: 
         "image name"
         "image cost"
-        "image image"
         "image address"
         "image button";
         margin: 10px;
@@ -273,6 +272,7 @@
         display: grid;
         grid-template-areas: 
         "name"
+        "image"
         "cost"
         "address"
         "button";
