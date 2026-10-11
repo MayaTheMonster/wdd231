@@ -272,7 +272,7 @@
         overflow: hidden;
         display: grid;
         grid-template-areas: 
-        "name"
+        "image name"
         "image cost"
         "image address"
         "image button";
