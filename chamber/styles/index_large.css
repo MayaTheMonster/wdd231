@@ -247,10 +247,10 @@
         display: grid;
         grid-template-areas: 
         "name"
-        "image description"
-        "image cost"
-        "image address"
-        "image button";
+        "cost"
+        "image"
+        "address"
+        "button";
         margin: 10px;
     }
     input[type="submit"]{
@@ -273,7 +273,6 @@
         display: grid;
         grid-template-areas: 
         "name"
-        "image description"
         "image cost"
         "image address"
         "image button";
