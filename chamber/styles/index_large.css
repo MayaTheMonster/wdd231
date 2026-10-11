@@ -246,11 +246,11 @@
         overflow: hidden;
         display: grid;
         grid-template-areas: 
-        "name"
-        "cost"
-        "image"
-        "address"
-        "button";
+        "image name"
+        "image cost"
+        "image image"
+        "image address"
+        "image button";
         margin: 10px;
     }
     input[type="submit"]{
@@ -272,10 +272,10 @@
         overflow: hidden;
         display: grid;
         grid-template-areas: 
-        "image name"
-        "image cost"
-        "image address"
-        "image button";
+        "name"
+        "cost"
+        "address"
+        "button";
         margin: 10px;
     }
     input[type="submit"]{
